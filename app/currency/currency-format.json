@@ -1,0 +1,110 @@
+{
+  "USD" : {
+    "name": "US Dollar",
+    "code": "USD",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "US$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "US$",
+      "template": "$1",
+      "rtl": false
+    }
+  },
+    "GBP" : {
+    "name": "Pound Sterling",
+    "code": "GBP",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "£",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "£",
+      "template": "$1",
+      "rtl": false
+    }
+  },
+  "EUR" : {
+    "name": "Euro",
+    "code": "EUR",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "€",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "€",
+      "template": "$1",
+      "rtl": false
+    }
+  },
+  "INR" : {
+    "name": "Indian Rupee", 
+       "code": "INR",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "₹",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "₹",
+      "template": "$1",
+      "rtl": false
+    }
+  },
+  "CAD" : {
+    "name": "Canadian Dollar",
+    "code": "CAD",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "CA$",
+      "template": "$1",
+      "rtl": false
+    }
+  },
+  "JPY" : {
+    "name": "Yen",
+    "code": "JPY",
+    "fractionSize": 0,
+    "symbol": null,
+    "uniqSymbol" : null
+  },
+  "ARS" : {
+    "name": "Argentine Peso",
+    "code": "ARS",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": null
+  },
+  "AUD" : {
+    "name": "Australian Dollar",
+    "code": "AUD",
+    "fractionSize": 2,
+    "symbol": {
+      "grapheme": "$",
+      "template": "$1",
+      "rtl": false
+    },
+    "uniqSymbol": {
+      "grapheme": "A$",
+      "template": "$1",
+      "rtl": false
+    }
+  }
+}

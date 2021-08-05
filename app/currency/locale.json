@@ -1,0 +1,22 @@
+{
+  "ar_AE" : {
+    "decimal": ".",
+    "thousands": ","
+  },
+  "en_US" : {
+    "decimal": ".",
+    "thousands": ","
+  },
+  "de_DE" : {
+    "decimal": ",",
+    "thousands": " "
+  },
+  "es_ES" : {
+    "decimal": ",",
+    "thousands": "."
+  },
+  "ja_JP" : {
+    "decimal": ".",
+    "thousands": ","
+  }
+}

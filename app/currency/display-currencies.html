@@ -1,0 +1,50 @@
+<html>
+    <head>
+            <script data-require="jquery@*" data-semver="2.1.4" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <script src="currency/display-currencies.js"></script>
+
+
+    </head>
+    <body>
+        <div ng-controller="displayCurrenciesCtrl" class="container">
+        <div id="tableToExport">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr class="info">
+                        <th ng-click="sortData('code')">
+                            Curency Code<div ng-class = "getSortClass('code')"></div>
+                        </th>
+                        <th ng-click="sortData('name')">
+                            Currency Description <div ng-class = "getSortClass('name')"></div>
+                        </th>
+                        <th ng-click="sortData('fractionSize')">
+                            Decimalization <div ng-class = "getSortClass('fractionSize')"></div>
+                        </th>
+                        <th ng-click="sortData('grapheme')" >
+                            Currency Symbol <div ng-class = "getSortClass('grapheme')"></div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat= "(code, country) in tableData | orderBy:sortColumn:reverseSort" >
+                        <td>{{country.code}}</td>
+                        <td>{{country.name}}</td>
+                        <td>{{country.fractionSize}}</td>
+                        <td>{{country.symbol.grapheme}}</td>
+                    </tr>
+              </tbody>
+            </table>
+            </div>
+            <div class="export">
+            <p>Export Currency Settings</p>
+            <button class="btn btn-link" ng-click="exportToExcel('#tableToExport')">
+                <span class="glyphicon glyphicon-share"></span>
+                Export to Excel
+            </button>
+        </div>
+        </div>
+    </body>
+</html>
+
+
+  
