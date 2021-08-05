@@ -3,7 +3,9 @@
 This application is built to format, add, edit and delete currencies of different locales
 
 Configured a custom json file to retrieve currencies and locales.
+
 To add, edit and delete the currencies, created a local js file to perform CRUD operations. If the backend (database) is setup, the same can be achieved through APIs.
+
 Created a table with sorting and exporting the settings to excel.
 
 ## Getting Started
