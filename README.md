@@ -13,7 +13,7 @@ Created a table with sorting and exporting the settings to excel.
 Clone the `currency-format-manager` repository using git:
 
 ```
-git clone https://github.com/angular/angular-seed.git
+git clone https://github.com/AnushaNath/currency-format-manager.git
 cd currency-format-manager
 ```
 
